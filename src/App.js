@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Error404 from "./components/Error404";
 
 function App() {
+  
   return (
     <BrowserRouter>
           <NavBar />

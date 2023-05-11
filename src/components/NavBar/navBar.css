@@ -1,0 +1,45 @@
+nav,
+.offcanvas {
+    background-color: #0C1D75;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+@media (max-width: 769px) {
+    .navbar-nav>li:hover {
+        background-color: #0dcaf0;
+    }
+}
+
+nav, .offcanvas {
+    background-color: white;
+}
+
+.offcanvas.showing,.offcanvas.show {
+    background-color: #0C1D75;
+    max-width: 280px;
+    border-radius: 0 15px 15px 0;
+}
+
+/* .offcanvas.show{
+    background-color: #0C1D75;
+    max-width: 280px;
+} */
+
+.separador2{
+    background-color: white;
+    height: 2px;
+}
+
+.navbar-nav li{
+    background-color: #0C1D75;
+    font-size: 16px;
+    font-weight: 400;
+}

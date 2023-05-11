@@ -2,8 +2,7 @@ import React from "react";
 import CarruselHome from "./ComponentsHomeContainer/CarruselHome";
 import Button from 'react-bootstrap/Button';
 import CardService from "./ComponentsHomeContainer/CardService";
-import arrayServices from "./data/Servicios.json"
-
+import arrayServices from "../data/Servicios.json"
 
 const HomeContainer = () => {
     

@@ -1,0 +1,11 @@
+.tarjeta{
+    background-color: #F2B705;
+    border-radius: 10px;
+}
+
+.imgTarjeta{
+    min-height: 190px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}

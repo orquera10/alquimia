@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import '../ComponentsHomeContainer/cardService.css'
 
 const CardService = ({element}) => {
   return (

@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
-import arrayCarrusel from '../data/Carrusel.json'
+import arrayCarrusel from '../../data/Carrusel.json'
+import '../ComponentsHomeContainer/carruselHome.css'
 
 const CarruselHome = () => {
   return (

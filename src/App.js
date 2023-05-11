@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Footer from "./components/Footer";
-// import NavBar from "./components/NavBar";
+import NavBar from "./components/NavBar";
 import Error404 from "./components/Error404";
 import HomeContainer from "./components/HomeContainer";
 
@@ -8,7 +8,7 @@ function App() {
   
   return (
     <BrowserRouter>
-          {/* <NavBar /> */}
+          <NavBar />
           <Routes>
             <Route path={"/"} element={<HomeContainer />} />
             {/* <Route path={"/servicios"} element={<ServiceContainer />} />

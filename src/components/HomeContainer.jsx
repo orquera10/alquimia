@@ -1,35 +1,37 @@
 import React from "react";
-import CarruselHome from "./CarruselHome";
+import CarruselHome from "./ComponentsHomeContainer/CarruselHome";
 import Button from 'react-bootstrap/Button';
+import CardService from "./ComponentsHomeContainer/CardService";
+import arrayServices from "./data/Servicios.json"
 
 
 const HomeContainer = () => {
+    
     return (
-        <div>
+        <div className="container">
             <CarruselHome/>
-            <div className="p-3">
-                <Button variant="primary" className="w-100">Solicitar Cotización</Button>{' '}
+            <Button variant="primary" className="w-100">Solicitar Cotización</Button>{' '}
+            <div className="w-100 separador mt-4"></div>
+            <h2 className="fs-6 font-weight-bold">Que hacemos?</h2>
+            <div className="row">{
+                arrayServices.map(service =>
+                {
+                    if (service.id % 2 === 0) {
+                        return (
+                        <div key={service.id} className="col-6 mb-2 ps-1">
+                            <CardService element={service} />
+                        </div>
+                        )
+                    } else{
+                        return (
+                        <div key={service.id} className="col-6 mb-2 pe-1">
+                            <CardService element={service} />
+                        </div>
+                        )
+                    }
+                })}
             </div>
-            <div className="w-100 separador mx-3 mt-2"></div>  
-            <div className="m-3 grid gap-0 row-gap-3 column-gap-3">
-                <div className="d-flex align-items-center justify-content-center border border-3 g-col-6">
-                    <img src="https://picsum.photos/150/150/?random" alt=""/>
-                </div>
-                <div className="d-flex align-items-center justify-content-center border border-3 g-col-6">
-                    <img src="https://picsum.photos/150/150/?random" alt=""/>
-                </div>
-                <div className="d-flex align-items-center justify-content-center border border-3 g-col-6">
-                    <img src="https://picsum.photos/150/150/?random" alt=""/>
-                </div>
-                <div className="d-flex align-items-center justify-content-center border border-3 g-col-6">
-                    <img src="https://picsum.photos/150/150/?random" alt=""/>
-                </div>
-                <div className="d-flex align-items-center justify-content-center border border-3 g-col-6">
-                    <img src="https://picsum.photos/150/150/?random" alt=""/>
-                </div>
-                
-            </div> 
-            <div className="w-100 separador mx-3 mt-2"></div>           
+            <div className="w-100 separador mb-4"></div>          
         </div>
     )
 };

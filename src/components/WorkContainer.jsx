@@ -2,6 +2,7 @@ import React from "react";
 import CarouselContainer from "./CarouselWork/CarouselContainer";
 import Button from 'react-bootstrap/Button';
 import carouselContent from "../data/CarouselWork.json"
+import CardsCategory from "./CardsCategory/CardsCategory";
 
 const WorkContainer = () => {
   const {carousel1, carousel2} = carouselContent;
@@ -19,6 +20,7 @@ const WorkContainer = () => {
           <CarouselContainer images={carousel2.images} description={carousel2.description} />
         </div>
       </div>
+      <CardsCategory/>
       <div className="w-100 separador mt-3"></div> 
     </div>
   );

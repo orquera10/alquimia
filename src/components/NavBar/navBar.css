@@ -3,6 +3,11 @@ nav,
     background-color: #0C1D75;
 }
 
+.nav-link{
+    font-weight: 400;
+    color: white;
+}
+
 .navbar-toggler {
     border: none;
 }
@@ -14,12 +19,12 @@ nav,
 
 @media (max-width: 769px) {
     .navbar-nav>li:hover {
-        background-color: #0dcaf0;
+        background-color:#1331c7;
     }
 }
 
 nav, .offcanvas {
-    background-color: white;
+    background-color:#ffffff;
 }
 
 .offcanvas.showing,.offcanvas.show {
@@ -28,18 +33,46 @@ nav, .offcanvas {
     border-radius: 0 15px 15px 0;
 }
 
-/* .offcanvas.show{
-    background-color: #0C1D75;
-    max-width: 280px;
-} */
-
 .separador2{
     background-color: white;
     height: 2px;
 }
 
 .navbar-nav li{
-    background-color: #0C1D75;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav li{
+        background-color: #0C1D75;
+        padding: 0 !important;
+        border-radius: 5px;
+        margin-left: 5px;
+    }
+    .offcanvas {
+        align-items: flex-end;
+    }
+
+    .navbar-nav li a{
+        padding: 2px 8px !important;
+    }
+
+    .active{
+        background-color: #F2B705;
+        color: #0C1D75;
+        border-radius: 4px;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color: #0C1D75;
+        font-weight: bold;
+    }
+    
+}
+
+@media (min-width: 1024px) {
+    .logoNav{
+        width: 227px;
+    }
 }

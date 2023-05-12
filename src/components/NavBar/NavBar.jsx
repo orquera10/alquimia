@@ -1,36 +1,12 @@
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
 import '../NavBar/navBar.css'
 import { Link, NavLink} from "react-router-dom";
 
 function NavBar() {
   return (
-    // <Navbar bg="light" expand="lg">
-    //   <Container fluid>
+    <div className='my-3'>
+      <nav className="navbar navbar-expand-md navbar-dark">
         
-    //     <Navbar.Toggle aria-controls="navbarScroll" />
-    //     <Navbar.Brand href="#"><img src="./img/icon/logo.svg" alt="" /></Navbar.Brand>
-    //     <Navbar.Collapse id="navbarScroll">
-    //       <Nav
-    //         className="me-auto my-2 my-lg-0 barraNav"
-    //         // style={{ minHeight: '95vh' }}
-    //         navbarScroll
-    //       >
-    //         <Nav.Link href="#action1">Home</Nav.Link>
-    //         <Nav.Link href="#action2">Link</Nav.Link>
-    //         <Nav.Link href="#action2">Link</Nav.Link>
-    //         <Nav.Link href="#action2">Link</Nav.Link>
-    //         <Nav.Link href="#action2">Link</Nav.Link>
-    //       </Nav>
-          
-    //     </Navbar.Collapse>
-    //   </Container>
-    // </Navbar>
-    <div>
-      <nav className="navbar navbar-expand-lg navbar-dark">
-        
-        <div className="container-fluid">
+        <div className="container">
           
           <button
             id='botonMenu'
@@ -39,21 +15,26 @@ function NavBar() {
             data-bs-toggle="offcanvas"
             data-bs-target="#menuLateral"
           >
-            
             <img src="./img/icon/MenuBurguer.svg" alt="" />
-            
           </button>
           <Link to={"/"}>
-            <img src="./img/icon/logo.svg" alt="" />
+            <img src="./img/icon/logo.svg" alt="" className='logoNav'/>
           </Link>
           
           <section
             className="offcanvas offcanvas-start"
             id="menuLateral"
-            tabindex="-1"
+            tabIndex="-1"
           >
-            <div className="offcanvas-header" data-bs-theme="dark">
-              <Link to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>
+            <div className="offcanvas-header justify-content-center" data-bs-theme="dark">
+              <button
+                className="btn-close d-none"
+                type="button"
+                aria-label="Close"
+                data-bs-dismiss="offcanvas"
+                id='botonCerrar'
+              ></button>
+              <Link to={"/"} onClick={()=>{document.getElementById('botonCerrar').click()}}>
                 <div className="w-100 d-flex justify-content-center mt-5">
                   <img src="./img/icon/logoTexto.svg" alt="" />
                   <img src="./img/icon/logoImg.svg" alt="" className='ms-3' />
@@ -64,39 +45,36 @@ function NavBar() {
             <div className="offcanvas-body d-flex flex-column justify-content-between px-0">
               
               <ul className="navbar-nav fs-5 justify-content-evenly">
-                <div className="separador2 mx-2"></div>
-                {/* <li className="nav-item p-3 py-md-1">
-                  <NavLink className="nav-link my-2 active" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>Home</NavLink>
-                </li> */}
-                <li class="nav-item p-3 py-md-1 d-flex">
-                  <img src="./img/icon/iconoService.svg" alt="" className='me-3'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/servicios"} onClick={()=>{document.getElementById('botonMenu').click()}}>Servicios</NavLink>
+                <div className="separador2 mx-3 mb-4 d-block d-md-none"></div>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3 d-none d-md-block">
+                  <NavLink className="nav-link" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Home</NavLink>
                 </li>
-                <li class="nav-item p-3 py-md-1 d-flex">
-                  <img src="./img/icon/iconoTrabajos.svg" alt="" className='me-3'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>Trabajos Realizados</NavLink>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3">
+                  <img src="./img/icon/iconoService.svg" alt="" className='me-3 d-block d-md-none'/>
+                  <NavLink className="nav-link" aria-current="page" to={"/servicios"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Servicios</NavLink>
                 </li>
-                <li class="nav-item p-3 py-md-1 d-flex">
-                  <img src="./img/icon/iconoContacto.svg" alt="" className='me-3'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>Contacto</NavLink>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3">
+                  <img src="./img/icon/iconoTrabajos.svg" alt="" className='me-3 d-block d-md-none'/>
+                  <NavLink className="nav-link" aria-current="page" to={"/trabajos"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Trabajos Realizados</NavLink>
                 </li>
-                <div className="separador2 mx-2"></div>
-                <li class="nav-item p-3 py-md-1 d-flex">
-                  <img src="./img/icon/iconoAyuda.svg" alt="" className='me-3'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>Quienes Somos?</NavLink>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3">
+                  <img src="./img/icon/iconoContacto.svg" alt="" className='me-3 d-block d-md-none'/>
+                  <NavLink className="nav-link" aria-current="page" to={"/contacto"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Contacto</NavLink>
                 </li>
-                <li class="nav-item p-3 py-md-1 d-flex">
-                  <img src="./img/icon/iconoInfo.svg" alt="" className='me-3'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/"} onClick={()=>{document.getElementById('botonMenu').click()}}>Terminos y Condiciones</NavLink>
+                <div className="separador2 mx-3 my-4 d-block d-md-none"></div>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3">
+                  <img src="./img/icon/iconoAyuda.svg" alt="" className='me-3 d-block d-md-none'/>
+                  <NavLink className="nav-link" aria-current="page" to={"/nosotros"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Quienes Somos?</NavLink>
                 </li>
-                <div className="separador2 mx-2"></div>
+                <li className="nav-item py-1 py-md-1 d-flex ps-3 d-block d-md-none">
+                  <img src="./img/icon/iconoInfo.svg" alt="" className='me-3 d-block d-md-none'/>
+                  <NavLink className="nav-link" aria-current="page" to={"/terminos"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Terminos y Condiciones</NavLink>
+                </li>
+                <div className="separador2 mx-3 mt-4 d-block d-md-none"></div>
               </ul>
               
 
-              <div class="d-lg-none align-self-center py-3">
-                {/* <a href="*"><i className="bi bi-facebook px-2 text-info fs-2 text-white"></i></a>
-                <a href="*"><i className="bi bi-instagram px-2 text-info fs-2 text-white"></i></a>
-                <a href="*"><i className="bi bi-whatsapp px-2 text-info fs-2 text-white"></i></a> */}
+              <div className="d-md-none align-self-center py-3">
                 <img src="./img/icon/iconoFacebook.svg" alt="" />
                 <img src="./img/icon/iconoInstagram.svg" alt="" className='mx-5'/>
                 <img src="./img/icon/iconoWhatsapp.svg" alt="" />

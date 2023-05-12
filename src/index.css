@@ -19,6 +19,10 @@ body{
     border: none;
 }
 
+.btn:hover {
+    background-color:#1129a0;
+}
+
 .separador{
     background-color: #0C1D75;
     height: 2px;

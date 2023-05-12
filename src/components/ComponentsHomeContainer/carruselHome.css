@@ -34,3 +34,15 @@
 .carousel-inner{
     border-radius: 10px;
 }
+
+@media (min-width: 426px) {
+    .carrusel img{
+        height: 35vh;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carrusel img{
+        height: 45vh;
+    }
+}

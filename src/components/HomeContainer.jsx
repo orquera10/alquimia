@@ -11,19 +11,19 @@ const HomeContainer = () => {
             <CarruselHome/>
             <Button variant="primary" className="w-100">Solicitar Cotización</Button>{' '}
             <div className="w-100 separador mt-4"></div>
-            <h2 className="fs-6 font-weight-bold">Que hacemos?</h2>
+            <h2 className="fs-6 font-weight-bold mt-2 mb-3">Que hacemos?</h2>
             <div className="row">{
                 arrayServices.map(service =>
                 {
                     if (service.id % 2 === 0) {
                         return (
-                        <div key={service.id} className="col-6 mb-2 ps-1">
+                        <div key={service.id} className="col-6 mb-2 mb-md-4 ps-1 ps-md-3">
                             <CardService element={service} />
                         </div>
                         )
                     } else{
                         return (
-                        <div key={service.id} className="col-6 mb-2 pe-1">
+                        <div key={service.id} className="col-6 mb-2 mb-md-4 pe-1 pe-md-3">
                             <CardService element={service} />
                         </div>
                         )

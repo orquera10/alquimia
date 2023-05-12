@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
         ))}
       </div>
-      <div className="w-100 separador mb-4"></div>   
+      <div className="w-100 separador mt-3"></div> 
     </div>
   );
 };

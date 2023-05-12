@@ -58,15 +58,17 @@ nav, .offcanvas {
         padding: 2px 8px !important;
     }
 
-    .active{
+    /* .navbar-nav .active{
         background-color: #F2B705;
         color: #0C1D75;
         border-radius: 4px;
-    }
+    } */
 
     .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
         color: #0C1D75;
         font-weight: bold;
+        background-color: #F2B705;
+        border-radius: 4px;
     }
     
 }

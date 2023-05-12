@@ -32,9 +32,20 @@ body{
     min-height: 95vh;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     .barraNav{
         max-height: 100px;
         min-height: 0;
+    }
+
+    .imgInsta{
+        margin: 0 120px !important;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .imgInsta, .imgFace, .imgWp{
+        width: 35px;
     }
 }

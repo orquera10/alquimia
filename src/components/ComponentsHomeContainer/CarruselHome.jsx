@@ -1,3 +1,4 @@
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import arrayCarrusel from '../../data/Carrusel.json'
 import './carruselHome.css'

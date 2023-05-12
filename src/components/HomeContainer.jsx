@@ -1,8 +1,7 @@
 import React from "react";
 import CarruselHome from "./ComponentsHomeContainer/CarruselHome";
 import Button from 'react-bootstrap/Button';
-import CardService from "./ComponentsHomeContainer/CardService";
-import arrayServices from "../data/Servicios.json"
+import ListCardService from "./ComponentsHomeContainer/ListCardService";
 
 const HomeContainer = () => {
     
@@ -12,25 +11,8 @@ const HomeContainer = () => {
             <Button variant="primary" className="w-100">Solicitar Cotización</Button>{' '}
             <div className="w-100 separador mt-4"></div>
             <h2 className="fs-6 font-weight-bold mt-2 mb-3">Que hacemos?</h2>
-            <div className="row">{
-                arrayServices.map(service =>
-                {
-                    if (service.id % 2 === 0) {
-                        return (
-                        <div key={service.id} className="col-6 mb-2 mb-md-4 ps-1 ps-md-3">
-                            <CardService element={service} />
-                        </div>
-                        )
-                    } else{
-                        return (
-                        <div key={service.id} className="col-6 mb-2 mb-md-4 pe-1 pe-md-3">
-                            <CardService element={service} />
-                        </div>
-                        )
-                    }
-                })}
-            </div>
-            <div className="w-100 separador mb-4"></div>          
+            <ListCardService/>
+            <div className="w-100 separador mt-3"></div>          
         </div>
     )
 };

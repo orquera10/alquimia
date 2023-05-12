@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "nombre": "Servicios Disponibles",
+        "imagen": "./img/options/servicios.jpg",
+        "path": "/servicios"
+
+    },
+    {
+        "id": 2,
+        "nombre": "Obras Realizadas",
+        "imagen": "./img/options/obras.jpg",
+        "path": "/trabajos"
+    }
+]

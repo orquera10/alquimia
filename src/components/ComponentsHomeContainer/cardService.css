@@ -5,6 +5,7 @@
 
 .imgTarjeta{
     min-height: 190px;
+    max-height: 300px;
     object-fit: cover;
     object-position: center;
     border-radius: 10px;

@@ -1,0 +1,44 @@
+{
+    "carousel1": {
+        "images": [
+            {
+                "path": "./img/carruselWork/image1.jpg",
+                "altText": "Imagen 1"
+            },
+            {
+                "path": "./img/carruselWork/image2.jpg",
+                "altText": "Imagen 2"
+            },
+            {
+                "path": "./img/carruselWork/image3.jpg",
+                "altText": "Imagen 3"
+            },
+            {
+                "path": "./img/carruselWork/image4.jpg",
+                "altText": "Imagen 4"
+            }
+        ],
+        "description": "Planificación y ejecución de instalación eléctrica domiciliaria con abastecimiento a través de línea subterránea."
+    },
+    "carousel2": {
+        "images": [
+            {
+                "path": "./img/carruselWork/image5.jpg",
+                "altText": "Imagen 5"
+            },
+            {
+                "path": "./img/carruselWork/image6.jpg",
+                "altText": "Imagen 6"
+            },
+            {
+                "path": "./img/carruselWork/image7.jpg",
+                "altText": "Imagen 7"
+            },
+            {
+                "path": "./img/carruselWork/image8.jpg",
+                "altText": "Imagen 8"
+            }
+        ],
+        "description": "Obra: Refacción, cerramiento y ampliación de salón de espacios múltiples."
+    }
+}

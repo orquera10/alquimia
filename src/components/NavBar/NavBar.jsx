@@ -19,7 +19,7 @@ function NavBar() {
             <img src="./img/icon/MenuBurguer.svg" alt="" />
           </button>
           <Link to={"/"}>
-            <img src="./img/icon/logo.svg" alt="" className='logoNav'/>
+            <img src="./img/icon/Logo.svg" alt="" className='logoNav'/>
           </Link>
           
           <section

@@ -78,7 +78,7 @@ function NavBar() {
               <div className="d-md-none align-self-center py-3">
                 <img src="./img/icon/iconoFacebook.svg" alt="" />
                 <img src="./img/icon/iconoInstagram.svg" alt="" className='mx-5'/>
-                <img src="./img/icon/iconoWhatsapp.svg" alt="" />
+                <img src="./img/icon/iconoWP.svg" alt="" />
               </div>
             </div>
           </section>

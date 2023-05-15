@@ -76,9 +76,9 @@ function NavBar() {
               
 
               <div className="d-md-none align-self-center py-3">
-                <img src="./img/icon/iconoFacebook.svg" alt="" />
-                <img src="./img/icon/iconoInstagram.svg" alt="" className='mx-5'/>
-                <img src="./img/icon/iconoWP.svg" alt="" />
+                <NavLink to={"https://www.facebook.com/profile.php?id=100089481594783&mibextid=ZbWKwL"} target='blank'><img src="./img/icon/iconoFacebook.svg" alt="" /></NavLink>
+                <NavLink to={"https://www.instagram.com/alquimia_construccion/?igshid=ZmZhODViOGI%3D"} target='blank'><img src="./img/icon/iconoInstagram.svg" alt="" className='mx-5'/></NavLink>
+                <NavLink to={"https://walink.co/bf26c4"} target='blank'><img src="./img/icon/iconoWP.svg" alt="" /></NavLink>
               </div>
             </div>
           </section>

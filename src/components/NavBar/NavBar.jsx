@@ -67,10 +67,6 @@ function NavBar() {
                   <img src="./img/icon/iconoAyuda.svg" alt="" className='me-3 d-block d-md-none'/>
                   <NavLink className="nav-link" aria-current="page" to={"/nosotros"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Quienes Somos?</NavLink>
                 </li>
-                <li className="nav-item py-1 py-md-1 d-flex ps-3 d-block d-md-none">
-                  <img src="./img/icon/iconoInfo.svg" alt="" className='me-3 d-block d-md-none'/>
-                  <NavLink className="nav-link" aria-current="page" to={"/terminos"} onClick={()=>{document.getElementById('botonCerrar').click()}}>Terminos y Condiciones</NavLink>
-                </li>
                 <div className="separador2 mx-3 mt-4 d-block d-md-none"></div>
               </ul>
               

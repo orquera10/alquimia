@@ -17,7 +17,7 @@
     border: transparent;
 }
 
-a .cardCustom:hover{
-    transform: scale(1.009);
+a:hover .cardCustom{
+    transform: scale(1.0009);
     border: 1.5px solid #666666 !important;    
 }

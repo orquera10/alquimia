@@ -1,20 +1,17 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import ListCardService from "./ComponentsHomeContainer/ListCardService";
 import CardsCategory from "./CardsCategory/CardsCategory";
+import BodyViews from "./BodyViews";
 
 const ServiceContainer = () => {
-    
-    return (
-        <div className="container">
-            <Button variant="primary" className="w-100">Solicitar Cotización</Button>{' '}
-            <div className="w-100 separador mt-4"></div>
-            <h2 className="fs-6 font-weight-bold mt-2 mb-3">Que hacemos?</h2>
-            <ListCardService/>
-            <CardsCategory/>
-            <div className="w-100 separador mt-3"></div>         
-        </div>
-    )
+  return (
+    <div className="container">
+      <BodyViews title="Qué hacemos?">
+        <ListCardService />
+        <CardsCategory />
+      </BodyViews>
+    </div>
+  );
 };
 
 export default ServiceContainer;

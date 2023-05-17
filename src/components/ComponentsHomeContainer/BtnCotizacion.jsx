@@ -1,10 +1,19 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
+import { NavLink } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const BtnCotizacion = () => {
-    return (
-        <Button variant="primary" className="w-100" onclick="window.open('mailto:recimixar@gmail.com', '_blank');">Solicitar Cotización</Button>
-    )
-}
+  return (
+    <NavLink to={"https://walink.co/bf26c4"} target="blank" className="text-decoration-none">
+      <Button
+        variant="primary"
+        className="w-100 d-flex gap-3 justify-content-center align-items-center"
+      >
+        <img src="./img/icon/iconoWP.svg" alt="" className="imgWp" />
+        <span>Solicitar Cotización</span>
+      </Button>
+    </NavLink>
+  );
+};
 
 export default BtnCotizacion;

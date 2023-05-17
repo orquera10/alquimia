@@ -1,0 +1,12 @@
+{
+  "work1": {
+    "path": "./img/work/image1.jpg",
+    "altText": "Imagen 1",
+    "description": "Planificación y ejecución de instalación eléctrica domiciliaria con abastecimiento a través de línea subterránea."
+  },
+  "work2": {
+    "path": "./img/work/image2.jpg",
+    "altText": "Imagen 2",
+    "description": "Obra: Refacción, cerramiento y ampliación de salón de espacios múltiples."
+  }
+}

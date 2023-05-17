@@ -1,27 +1,23 @@
 import React from "react";
-import CarouselContainer from "./CarouselWork/CarouselContainer";
-import Button from 'react-bootstrap/Button';
-import carouselContent from "../data/CarouselWork.json"
+import ImgContainer from "./ImgWork/ImgContainer";
+import imgContent from "../data/Work.json"
 import CardsCategory from "./CardsCategory/CardsCategory";
+import BodyViews from "./BodyViews";
 
 const WorkContainer = () => {
-  const {carousel1, carousel2} = carouselContent;
+  const {work1, work2} = imgContent;
 
   return (
     <div className="container">
-      <Button variant="primary" className="w-100">
-        Solicitar Cotización
-      </Button>
-      <div className="w-100 separador mt-4"></div>
-      <h2 className="fs-6 font-weight-bold mt-2 mb-3">Trabajos realizados</h2>
+      <BodyViews title="Trabajos realizados">
       <div className="d-flex justify-content-center">
-        <div className="container-fluid row">
-          <CarouselContainer images={carousel1.images} description={carousel1.description} />
-          <CarouselContainer images={carousel2.images} description={carousel2.description} />
+        <div className="row">
+          <ImgContainer data={work1} />
+          <ImgContainer data={work2} />
         </div>
       </div>
       <CardsCategory/>
-      <div className="w-100 separador mt-3"></div> 
+      </BodyViews>
     </div>
   );
 };

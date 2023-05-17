@@ -23,6 +23,14 @@ body{
     background-color:#1129a0;
 }
 
+.btn-close {
+    color: #f8f9fa !important;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
 .separador{
     background-color: #0C1D75;
     height: 2px;

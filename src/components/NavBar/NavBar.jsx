@@ -29,12 +29,12 @@ function NavBar() {
           >
             <div className="offcanvas-header justify-content-center" data-bs-theme="dark">
               <button
-                className="btn-close d-none"
+                className="btn-close"
                 type="button"
                 aria-label="Close"
                 data-bs-dismiss="offcanvas"
                 id='botonCerrar'
-              ></button>
+              ><i className="bi bi-x-lg fs-5"></i></button>
               <Link to={"/"} onClick={()=>{document.getElementById('botonCerrar').click()}}>
                 <div className="w-100 d-flex justify-content-center mt-5">
                   <img src="./img/icon/logoTexto.svg" alt="" />

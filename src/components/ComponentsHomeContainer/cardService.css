@@ -8,5 +8,16 @@
     max-height: 300px;
     object-fit: cover;
     object-position: center;
+}
+
+.cardCustom{
+    transition: 0.5s all;
+    overflow: hidden;
     border-radius: 10px;
+    border: transparent;
+}
+
+.cardCustom:hover{
+    transform: scale(1.009);
+    border: 1.5px solid #666666 !important;    
 }

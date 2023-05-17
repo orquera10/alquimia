@@ -7,7 +7,6 @@ import ServiceContainer from "./components/ServiceContainer";
 import WorkContainer from "./components/WorkContainer";
 import Contact from "./components/Contact";
 import AboutUs from "./components/AboutUs";
-import ScrollTo from "./components/ScrollTo";
 
 function App() {
   
@@ -22,7 +21,6 @@ function App() {
             <Route path={"/nosotros"} element={<AboutUs />} />
             <Route path={"*"} element={<Error404 />} />           
           </Routes>
-          <ScrollTo />
           <Footer />
     </BrowserRouter>
   );

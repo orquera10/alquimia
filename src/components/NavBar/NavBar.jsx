@@ -4,7 +4,7 @@ import { Link, NavLink} from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className='my-3'>
+    <div className='mb-3 position-sticky top-0 shadow-sm' style={{zIndex:3}}>
       <nav className="navbar navbar-expand-md navbar-dark">
         
         <div className="container">

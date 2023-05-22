@@ -1,16 +1,16 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import arrayCarrusel from '../../data/Carrusel.json'
 import './carruselHome.css'
 
-const CarruselHome = () => {
+const CarruselHome = (props) => {
+  const {array, controls} = props;
   return (
-    <Carousel className='carrusel  mt-3 mb-5'>
-      {arrayCarrusel.map(objeto =>
+    <Carousel controls={controls || false} className='carrusel mt-3 mb-5'>
+      {array.map(objeto =>
         <Carousel.Item key={objeto.id}>
           <img
             className="d-block w-100"
-            src={objeto.imagen}
+            src={objeto.path}
             alt="First slide"
           />
         </Carousel.Item>

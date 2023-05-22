@@ -1,12 +1,75 @@
-{
-  "work1": {
-    "path": "./img/work/image1.jpg",
-    "altText": "Imagen 1",
-    "description": "Planificación y ejecución de instalación eléctrica domiciliaria con abastecimiento a través de línea subterránea."
+[
+  {
+    "images": [
+      {
+        "path": "./img/work/work1-1.jpg",
+        "altText": "Imagen 1"
+      },
+      {
+        "path": "./img/work/work1-2.png",
+        "altText": "Imagen 2"
+      },
+      {
+        "path": "./img/work/work1-3.png",
+        "altText": "Imagen 3"
+      },
+      {
+        "path": "./img/work/work1-4.png",
+        "altText": "Imagen 4"
+      }
+    ],
+    "description": "Refacción, cerramiento y ampliación de salón particular."
   },
-  "work2": {
-    "path": "./img/work/image2.jpg",
-    "altText": "Imagen 2",
-    "description": "Obra: Refacción, cerramiento y ampliación de salón de espacios múltiples."
+  {
+    "images": [
+      {
+        "path": "./img/work/work2-1.png",
+        "altText": "Imagen 1"
+      },
+      {
+        "path": "./img/work/work2-2.png",
+        "altText": "Imagen 2"
+      }
+    ],
+    "description": "Instalación de panales solares y de bombas de agua con sistema solar para hogar, industria y agro."
+  },
+  {
+    "images": [
+      {
+        "path": "./img/work/work3-1.png",
+        "altText": "Imagen 1"
+      },
+      {
+        "path": "./img/work/work3-2.png",
+        "altText": "Imagen 2"
+      }
+    ],
+    "description": "Reparación de sistema electrónico de sistema de refrigeración."
+  },
+  {
+    "images": [
+      {
+        "path": "./img/work/work4-1.png",
+        "altText": "Imagen 1"
+      },
+      {
+        "path": "./img/work/work4-2.png",
+        "altText": "Imagen 2"
+      }
+    ],
+    "description": "Iluminación de cancha de fútbol con cableado subterráneo."
+  },
+  {
+    "images": [
+      {
+        "path": "./img/work/work5-1.png",
+        "altText": "Imagen 1"
+      },
+      {
+        "path": "./img/work/work5-2.png",
+        "altText": "Imagen 2"
+      }
+    ],
+    "description": "Canalización de electricidad en cañería rígida."
   }
-}
+]

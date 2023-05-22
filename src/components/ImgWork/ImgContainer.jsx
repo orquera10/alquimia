@@ -1,13 +1,13 @@
 import React from "react";
-
+import Carrusel from "../CarouselComponents/Carrusel"
 
 const ImgContainer = (props) => {
   const {data} = props;
-  const {path, altText, description} = data;
+  const {images, description} = data;
 
   return (
-  <div className="col col-12 col-md-6 my-3">
-    <img className="w-100 rounded-4" src={path} alt={altText} />
+  <div className="col col-12 col-md-6">
+    <Carrusel controls={true} array={images} />
     <p className="text-center mt-3 fw-normal">{description}</p>
   </div>
   );

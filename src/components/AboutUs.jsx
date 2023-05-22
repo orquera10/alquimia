@@ -1,7 +1,8 @@
 import React from "react";
-import CarruselHome from "./ComponentsHomeContainer/CarruselHome";
+import CarruselHome from "./CarouselComponents/Carrusel";
 import CardsCategory from "./CardsCategory/CardsCategory";
 import BodyViews from "./BodyViews";
+import arrayCarrusel from '../data/Carrusel.json'
 
 const AboutUs = () => {
   return (
@@ -16,7 +17,7 @@ const AboutUs = () => {
           de los cambios una buena experiencia, con resultados finales
           excelentes, y cuidando cada detalle
         </p>
-        <CarruselHome />
+        <CarruselHome array={arrayCarrusel}/>
         <CardsCategory />
       </BodyViews>
     </div>

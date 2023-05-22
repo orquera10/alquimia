@@ -2,14 +2,15 @@ import React from "react";
 import BtnCotizacion from "./ComponentsHomeContainer/BtnCotizacion";
 
 const BodyViews = (props) => {
-    const {title, children} = props;
+  const { title, children } = props;
   return (
     <div>
-      <BtnCotizacion />
-      <div className="w-100 separador mt-4"></div>
-      {title && <h2 className="fs-6 font-weight-bold mt-2 mb-3">{title}</h2>}
+      <div className="position-sicky zindex-sticky top-0">
+        <BtnCotizacion />
+        <div className="w-100 separador mt-4"></div>
+        {title && <h2 className="fs-6 font-weight-bold mt-2 mb-3">{title}</h2>}
+      </div>
       {children}
-      <div className="w-100 separador mt-3"></div> 
     </div>
   );
 };

@@ -4,6 +4,7 @@ import arrayCarrusel from '../data/Carrusel.json'
 import ListCardService from "./ComponentsHomeContainer/ListCardService";
 import BodyViews from "./BodyViews";
 
+
 const HomeContainer = () => {
   return (
     <div className="container">

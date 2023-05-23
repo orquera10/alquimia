@@ -3,7 +3,7 @@ import CarruselHome from "./CarouselComponents/Carrusel";
 import arrayCarrusel from '../data/Carrusel.json'
 import ListCardService from "./ComponentsHomeContainer/ListCardService";
 import BodyViews from "./BodyViews";
-
+import CardsCategory from "./CardsCategory/CardsCategory";
 
 const HomeContainer = () => {
   return (
@@ -11,6 +11,7 @@ const HomeContainer = () => {
       <CarruselHome array={arrayCarrusel} />
       <BodyViews title="Qué hacemos?">
         <ListCardService />
+        <CardsCategory />
       </BodyViews>
     </div>
   );

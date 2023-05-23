@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom';
 
 const CardsCategory = () => {
-  const category = useLocation();
+  let category = useLocation();
+  if (category.pathname === '/') {
+    category.pathname = '/servicios'; 
+  }
   return (
     <div>
       {options.map(item => {

@@ -5,7 +5,7 @@ import {IoLogoWhatsapp} from "react-icons/io"
 
 const BtnCotizacion = () => {
   return (
-    <NavLink to={"https://walink.co/bf26c4"} target="blank" className="text-decoration-none">
+    <NavLink to={"https://walink.co/bf26c4"} target="blank" className="text-decoration-none d-flex justify-content-center align-items-center">
       <Button
         variant="primary"
         className="w-100 d-flex gap-3 justify-content-center align-items-center"

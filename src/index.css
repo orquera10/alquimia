@@ -56,6 +56,9 @@ body{
     .imgInsta, .imgFace, .imgWp{
         width: 35px;
     }
+    .btn-primary{
+        max-width: 1100px;
+    }
 }
 
 .posicion {

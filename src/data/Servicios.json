@@ -1,56 +1,86 @@
 [
     {
         "id": 1,
-        "nombre": "Jardinería",
-        "imagen": "./img/service/service (1).png",
+        "nombre": "Plomeria",
+        "imagen": "./img/service/service (6).png",
         "descripcion": "sin descripción"
     },
     {
         "id": 2,
-        "nombre": "Steel Framing",
-        "imagen": "./img/service/service (2).png",
-        "descripcion": "sin descripción"
-    },
-    {
-        "id": 3,
         "nombre": "Durlock",
         "imagen": "./img/service/service (3).png",
         "descripcion": "sin descripción"
     },
     {
+        "id": 3,
+        "nombre": "Albañilería",
+        "imagen": "./img/service/service (5).png",
+        "descripcion": "sin descripción"
+    },
+    {
         "id": 4,
+        "nombre": "Steel Framing",
+        "imagen": "./img/service/service (2).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 5,
+        "nombre": "Planos 2D / Modelos 3D",
+        "imagen": "./img/service/service (1).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 6,
         "nombre": "Pintura",
         "imagen": "./img/service/service (4).png",
         "descripcion": "sin descripción"
     },
     {
-        "id": 5,
-        "nombre": "Electricidad",
-        "imagen": "./img/service/service (5).png",
-        "descripcion": "sin descripción"
-    },
-    {
-        "id": 6,
-        "nombre": "Plomería",
-        "imagen": "./img/service/service (6).png",
-        "descripcion": "sin descripción"
-    },
-    {
         "id": 7,
-        "nombre": "Aire Acondicionados",
-        "imagen": "./img/service/service (7).png",
-        "descripcion": "sin descripción"
-    },
-    {
-        "id": 8,
-        "nombre": "Refrigeración",
+        "nombre": "Higiene y seguridad",
         "imagen": "./img/service/service (8).png",
         "descripcion": "sin descripción"
     },
     {
+        "id": 8,
+        "nombre": "Armado de proyectos",
+        "imagen": "./img/service/service (7).png",
+        "descripcion": "sin descripción"
+    },
+    {
         "id": 9,
-        "nombre": "Albañilería",
+        "nombre": "Relevamiento y ampliación",
+        "imagen": "./img/service/service (10).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 10,
+        "nombre": "Direción técnica",
         "imagen": "./img/service/service (9).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 11,
+        "nombre": "Proyectos, ingeniería y desarrollo",
+        "imagen": "./img/service/service (12).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 12,
+        "nombre": "Paneles solares",
+        "imagen": "./img/service/service (11).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 13,
+        "nombre": "Electrificación de lotes",
+        "imagen": "./img/service/service (13).png",
+        "descripcion": "sin descripción"
+    },
+    {
+        "id": 14,
+        "nombre": "Refacción y obras nuevas",
+        "imagen": "./img/service/service (14).png",
         "descripcion": "sin descripción"
     }
 ]

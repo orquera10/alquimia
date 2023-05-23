@@ -57,3 +57,7 @@ body{
         width: 35px;
     }
 }
+
+.posicion {
+    z-index: 5;
+}

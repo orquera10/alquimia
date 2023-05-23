@@ -2,6 +2,7 @@ import React from "react";
 import ListCardService from "./ComponentsHomeContainer/ListCardService";
 import CardsCategory from "./CardsCategory/CardsCategory";
 import BodyViews from "./BodyViews";
+import ScrollToTop from "./ScrollToTop";
 
 const ServiceContainer = () => {
   return (
@@ -10,6 +11,7 @@ const ServiceContainer = () => {
         <ListCardService />
         <CardsCategory />
       </BodyViews>
+      <ScrollToTop />
     </div>
   );
 };

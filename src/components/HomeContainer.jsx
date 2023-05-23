@@ -4,6 +4,7 @@ import arrayCarrusel from '../data/Carrusel.json'
 import ListCardService from "./ComponentsHomeContainer/ListCardService";
 import BodyViews from "./BodyViews";
 import CardsCategory from "./CardsCategory/CardsCategory";
+import ScrollToTop from "./ScrollToTop";
 
 const HomeContainer = () => {
   return (
@@ -13,6 +14,7 @@ const HomeContainer = () => {
         <ListCardService />
         <CardsCategory />
       </BodyViews>
+      <ScrollToTop />
     </div>
   );
 };

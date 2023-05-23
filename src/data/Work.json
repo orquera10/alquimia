@@ -55,6 +55,10 @@
       {
         "path": "./img/work/work4-2.png",
         "altText": "Imagen 2"
+      },
+      {
+        "path": "./img/work/work4-3.png",
+        "altText": "Imagen 3"
       }
     ],
     "description": "Iluminación de cancha de fútbol con cableado subterráneo."

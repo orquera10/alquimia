@@ -3,6 +3,7 @@ import ImgContainer from "./ImgWork/ImgContainer";
 import CardsCategory from "./CardsCategory/CardsCategory";
 import BodyViews from "./BodyViews";
 import arrayCarousel from "../data/Work.json";
+import ScrollToTop from "./ScrollToTop";
 
 const WorkContainer = () => {
 
@@ -18,6 +19,7 @@ const WorkContainer = () => {
       </div>
       <CardsCategory/>
       </BodyViews>
+      <ScrollToTop />
     </div>
   );
 };

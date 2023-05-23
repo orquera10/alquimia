@@ -1,6 +1,7 @@
 import React from "react";
 import CardsCategory from "./CardsCategory/CardsCategory";
 import BodyViews from "./BodyViews";
+import ScrollToTop from "./ScrollToTop";
 
 const Contact = () => {
   return (
@@ -30,6 +31,7 @@ const Contact = () => {
         </div>
         <CardsCategory />
       </BodyViews>
+      <ScrollToTop />
     </div>
   );
 };

@@ -3,6 +3,7 @@ import CarruselHome from "./CarouselComponents/Carrusel";
 import CardsCategory from "./CardsCategory/CardsCategory";
 import BodyViews from "./BodyViews";
 import arrayCarrusel from '../data/Carrusel.json'
+import ScrollToTop from "./ScrollToTop";
 
 const AboutUs = () => {
   return (
@@ -20,6 +21,7 @@ const AboutUs = () => {
         <CarruselHome array={arrayCarrusel}/>
         <CardsCategory />
       </BodyViews>
+      <ScrollToTop />
     </div>
   );
 };

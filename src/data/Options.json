@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "nombre": "Servicios Disponibles",
+        "nombre": "Servicios",
         "imagen": "./img/options/servicios.jpg",
         "path": "/servicios"
 
     },
     {
         "id": 2,
-        "nombre": "Obras Realizadas",
+        "nombre": "Trabajos realizados",
         "imagen": "./img/options/obras.jpg",
         "path": "/trabajos"
     }

@@ -10,7 +10,7 @@ const HomeContainer = () => {
   return (
     <div className="container">
       <CarruselHome array={arrayCarrusel} />
-      <BodyViews title="Qué hacemos?">
+      <BodyViews title="¿Qué hacemos?">
         <ListCardService />
         <CardsCategory />
       </BodyViews>

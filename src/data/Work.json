@@ -62,18 +62,5 @@
       }
     ],
     "description": "Iluminación de cancha de fútbol con cableado subterráneo."
-  },
-  {
-    "images": [
-      {
-        "path": "./img/work/work5-1.png",
-        "altText": "Imagen 1"
-      },
-      {
-        "path": "./img/work/work5-2.png",
-        "altText": "Imagen 2"
-      }
-    ],
-    "description": "Canalización de electricidad en cañería rígida."
   }
 ]

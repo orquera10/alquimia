@@ -28,7 +28,12 @@ body{
     background: transparent;
     position: absolute;
     top: 10px;
-    left: 10px;
+    right: 20px;
+}
+
+.btn-close:focus, .btn-close:active {
+    box-shadow: none !important;
+    outline: none !important;
 }
 
 .separador{

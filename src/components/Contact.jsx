@@ -8,8 +8,8 @@ const Contact = () => {
     <div className="container">
       <BodyViews>
         <div className="row p-3" style={{ minHeight: "300px" }}>
-          <div className="col col-6 col-md-4 p-2">
-            <h2 className="fs-5">Contacto</h2>
+          <div className="col-md col-md-4 p-2">
+          <h2 className="fs-6 font-weight-bold mb-3">Contacto</h2>
             <p className="fw-normal">
               Dirección: La Plata 309, Santiago del Estero
             </p>
@@ -27,7 +27,7 @@ const Contact = () => {
               gabrielashetter@gmail.com
             </p>
           </div>
-          <div className="col col-6 col-md-8">
+          <div className="col-md col-md-8">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3529.8762901636956!2d-64.26412542469727!3d-27.782785730118267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943b5215b90451a3%3A0x9952c67e61b5aff!2sLa%20Plata%20309%2C%20Santiago%20del%20Estero!5e0!3m2!1ses-419!2sar!4v1683808329636!5m2!1ses-419!2sar"
               title="Mapa"

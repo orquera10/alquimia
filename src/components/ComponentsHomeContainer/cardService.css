@@ -19,6 +19,5 @@
 
 a:hover .cardCustom{
     transform: scale(1.001);
-    /* border: 1.5px solid #666666 !important; */
     box-shadow: 2px 2px 10px gray;    
 }

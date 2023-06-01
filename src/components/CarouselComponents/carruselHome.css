@@ -23,16 +23,8 @@
     background-color: #AFAFAF;
 }
 
-/* .carousel-control-next{
-    visibility: hidden;
-}
-
-.carousel-control-prev{
-    visibility: hidden;
-} */
-
 .carousel-inner{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 @media (min-width: 426px) {

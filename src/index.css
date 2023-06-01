@@ -69,3 +69,20 @@ body{
 .posicion {
     z-index: 5;
 }
+
+.card-work img{
+    max-height: 300px;
+}
+
+.card-nos p{
+    font-size: 0.9rem;
+}
+
+.card-nos h2{
+    font-size: 1.1rem !important;
+}
+
+.sombra{
+    border-radius: 10px;
+    box-shadow: 0px 7px 7px -7px #F2B705;
+}

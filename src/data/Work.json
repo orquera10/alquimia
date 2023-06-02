@@ -15,7 +15,7 @@
       }
     ],
     "description": "Instalación de cañerías subterráneas para garantizar la correcta canalización de las señales débiles y asegurar la eficiente distribución de la electricidad.",
-    "state": "active"
+    "state": true
   },
   {
     "images": [
@@ -37,7 +37,7 @@
       }
     ],
     "description": "Refacción, cerramiento y ampliación de salón particular.",
-    "state": "no-active"
+    "state": false
   },
   {
     "images": [
@@ -51,7 +51,7 @@
       }
     ],
     "description": "Instalación de panales solares y de bombas de agua con sistema solar para hogar, industria y agro.",
-    "state": "no-active"
+    "state": false
   },
   {
     "images": [
@@ -65,7 +65,7 @@
       }
     ],
     "description": "Reparación de sistema electrónico de sistema de refrigeración.",
-    "state": "no-active"
+    "state": false
   },
   {
     "images": [
@@ -83,6 +83,6 @@
       }
     ],
     "description": "Iluminación de cancha de fútbol con cableado subterráneo.",
-    "state": "no-active"
+    "state": false
   }
 ]
